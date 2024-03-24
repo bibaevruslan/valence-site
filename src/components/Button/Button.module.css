@@ -1,0 +1,88 @@
+.defaultButton {
+    color: var(--black-text-color);
+    background: var(--gray-background-color);
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 10px 20px 10px 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    height: max-content;
+}
+
+.defaultButton:hover {
+    color: var(--black-background-color);
+    background: var(--white-text-color);
+}
+
+.navButton {
+    color: var(--white-text-color);
+    background: var(--black-background-color);
+    border-radius: 8px;
+    border-width: 0;
+    padding: 10px 20px 10px 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+
+    height: max-content;
+}
+
+.navButton:hover {
+    color: var(--black-background-color);
+    background: var(--white-text-color);
+}
+
+.default {
+    color: var(--white-text-color);
+    background: var(--black-background-color);
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 10px 20px 10px 20px;
+
+    font-style: normal;
+    font-size: 14px;
+
+    height: max-content;
+    width: max-content;
+}
+
+.default:hover {
+    background-color: #36383C;
+    cursor: pointer;
+}
+
+.menu {
+    composes: default;
+    margin-right: 8px;
+    text-align: left;
+    color: var(--black-text-color);
+    background: var(--white-background-color);
+}
+
+.menu:hover {
+    color: var(--black-background-color);
+    background: var(--white-text-color);
+}
+
+.nav {
+    composes: default;
+    color: var(--black-text-color);
+    background: var(--gray-background-color);
+    margin-right: 8px;
+}
+
+.nav:hover {
+    color: var(--black-background-color);
+    background: var(--white-text-color);
+}
+
+.icon {
+    composes: default;
+    padding: 10px 12px;
+    height: initial;
+    width: initial;
+}

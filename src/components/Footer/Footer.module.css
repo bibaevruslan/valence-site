@@ -1,0 +1,18 @@
+.footer {
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+}
+
+.footer div {
+    color: gray;
+}
+
+.footer li {
+    color: white;
+}
+
+.footer li:hover {
+    color: gray;
+}

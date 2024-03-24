@@ -1,0 +1,21 @@
+.navbar {
+    background-color: black;
+    padding: 10px 40px;
+}
+
+.navbar a {
+    margin: 0;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: firebrick;
+}
+
+.navbar li {
+    color: white;
+}
+
+.navbar li:hover {
+    color: gray;
+}
